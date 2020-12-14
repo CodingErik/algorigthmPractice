@@ -9,6 +9,8 @@
  * if not * 
  * 
  * the the function will return an empty array
+ * 
+ * time O(n) space O(n)
  */
 
 
