@@ -10,7 +10,9 @@
  * 
  * the the function will return an empty array
  * 
- * time O(n) space O(n)
+ * O notation 
+ * 
+ * time O(n) space O(n) 
  */
 
 
