@@ -1,6 +1,6 @@
-const array = [5,1,22,25,6,-1,8,10]; 
-const sequence = [1,6,-1,10];
-const sequence2 = [1,2,3,5,5];  
+const array = [5, 1, 22, 25, 6, -1, 8, 10];
+const sequence = [1, 6, -1, 10];
+const sequence2 = [1, 2, 3, 5, 5];
 
 /**
  * 
@@ -12,34 +12,60 @@ const sequence2 = [1,2,3,5,5];
  * 
  * @returns - a boolean to verify if the arr2 is a subsequence or not
  * 
+ * * O notation time O(n) | space O(1) * * 
+ * 
+ * time O(n) because we are having to iterate throught the main array at least once 
+ * 
+ * space O(1) becase we are not really storing anything except for on position index  
+ * 
  */
 
-
-
+// * solution 1 
 function isValidSubsequence(arr: number[], arr2: number[]): boolean {
-    // make an interface to explicitly define the input 
-    interface Itable  { [key: number]: number }
 
-    let table: Itable = {}
-    let position: number = 0; 
-    let answer: boolean; 
+    let position: number = 0;
     for (let i = 0; i < array.length; i++) {
-        table[arr[i]] = arr[i]; 
-        if(arr2[position] === arr[i]){
+        if (arr2[position] === arr[i]) {
             // if we find the first of the subsequence move on 
             // to the next 
-            position += 1; 
+            position += 1;
         }
     }
-    if(position === arr2.length){
-        return true;  
-    }else{
-        return false; 
+    if (position === arr2.length) {
+        return true;
+    } else {
+        return false;
     }
 }
 
-console.log(isValidSubsequence(array, sequence2)); 
+console.log(isValidSubsequence(array, sequence));
+
+
+// * solution 2 => better solution 
+function isValidSubsequence2(arr: number[], arr2: number[]): boolean {
+    // make an interface to explicitly define the input 
+    let seqIndex = 0;
+    for (const number of arr) {
+        if (seqIndex === arr2.length) break; // | you could just return the true here
+        if (arr2[seqIndex] === number) seqIndex++;
+    }
+    return seqIndex === arr2.length;
+}
 
 
 
+console.log(isValidSubsequence2(array, sequence));
 
+
+// * solution 3 => no redundancy on return statements; 
+export function isValidSubsequence3(array: number[], sequence: number[]) {
+    // Write your code here.
+    let position: number = 0;
+    for (const number of array) {
+        if (sequence[position] === number) position++;
+        if (sequence.length === position) return true;
+    }
+    return false;
+}
+
+console.log(isValidSubsequence3(array, sequence)); 
