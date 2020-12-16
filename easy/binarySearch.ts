@@ -4,7 +4,9 @@
  * one of the preRequesites for binary search is that the array HAS to be SORTED in order to apply binary search 
  * 
  * @TimeComplexity of O(Log(N))
- * @SpaceComplecity of O(1) or O(Log(N)) recursively 
+ * @SpaceComplecity of O(1) ||  O(Log(N)) using recursive case 
+ * 
+ * O(Log(N)) because it half the amount of time it search as the N or length of the array get bigger 👍🏽
  * 
  * @implementations
  *  this algorithm can be implemented Recursively and Iterably 
