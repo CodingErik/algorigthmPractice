@@ -6,6 +6,7 @@
  * @param - input array
  */
 
+// this is on solution although not the most ideal it is still O(n) time O(1)
 const findThreeLargestNumbers = (inputArr: number[]): (number | null)[] => {
     let threeLargestNumbersArr: (null | number)[] = [null,null,null];
     for (let i = 0; i < inputArr.length; i++) {
@@ -31,3 +32,6 @@ const findThreeLargestNumbers = (inputArr: number[]): (number | null)[] => {
 }
 
 console.log(findThreeLargestNumbers([141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7])); 
+
+
+// this is the ideal solution here 
