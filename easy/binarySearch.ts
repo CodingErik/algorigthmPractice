@@ -15,10 +15,10 @@
 
 
 
-let arrNum: number[] = [1, 6, 3, 7, 29, 309, 34, 24, 11, 33, 100, 110, 1000, 56, 234, 23422, 23,234,34 ,3,34,23 ];
+let arrNum: number[] = [1, 6, 3, 7, 29, 309, 34, 24, 11, 33, 100, 110, 1000, 56, 234, 23422, 23, 234, 34, 3, 34, 23];
 let sortedNum: number[] = arrNum.sort((a, b) => a - b);
 
-console.log(sortedNum); 
+console.log(sortedNum);
 
 // * Binary Search Using Recursion
 const recursiveBinarySearch = (arr: number[], targetNumber: number) => {
@@ -70,8 +70,6 @@ const binarySearchHelper = (arr: number[], targetToAimFor: number, left: number,
 }
 
 console.log(iterationBinarySearch(sortedNum, 100), 'this is iteration');
-
-
 
 
 
