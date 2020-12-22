@@ -9,8 +9,8 @@
  * if the first index is greater than the next index => * THEN we will swap the indexes 
  * 
  * 
- * @TimeComplexity - O(n^2) - because we are iterating throught the array many times
- * 
+ * @TimeComplexity - O(n^2) - because we are iterating throught the array many times 
+ *                      -  Best case O(n) 
  * @SpaceComplexity - O(1) - because nothing is being stored we are just iterating and returning
  *  
  * 
