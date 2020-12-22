@@ -12,20 +12,25 @@
 export class Node {
     name: string;
     children: Node[];
-  
+
     constructor(name: string) {
-      this.name = name;
-      this.children = [];
+        this.name = name;
+        this.children = [];
     }
-  
+
     addChild(name: string) {
-      this.children.push(new Node(name));
-      return this;
+        this.children.push(new Node(name));
+        return this;
     }
-  
+
     depthFirstSearch(array: string[]) {
-      // Write your code here.
-      return array;
+        // Write your code here.
+        return array;
     }
-  }
-  
+}
+
+// let erikNode = new Node('erik'); 
+// erikNode.addChild('ellie'); 
+// erikNode.addChild('tilly'); 
+
+// console.log(erikNode); 
