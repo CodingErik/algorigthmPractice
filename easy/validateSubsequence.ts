@@ -41,7 +41,7 @@ function isValidSubsequence(arr: number[], arr2: number[]): boolean {
 console.log(isValidSubsequence(array, sequence));
 
 
-// * solution 2 => better solution 
+// ****** solution 2 => better solution *******
 function isValidSubsequence2(arr: number[], arr2: number[]): boolean {
     // make an interface to explicitly define the input 
     let seqIndex = 0;

@@ -34,7 +34,7 @@ export function twoNumberSum(array: number[], targetSum: number): number[] {
 // console.log(twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10))
 
 
-/**
+/** MAIN CONCEPT *****
  * the main concept of this algorithm,
  * is to learn to use hash tables to store data, 
  * so that you dont have to continue to iterate through the whole array again. 
