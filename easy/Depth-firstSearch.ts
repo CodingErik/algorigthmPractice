@@ -2,10 +2,15 @@
  * @Algorithm 
  *  - Depth-First-Search Algorithm 
  * 
+ * @description
+ *  - this algorithm is used to search a binary tree by going deep first 
+ * 
  *  - this algorithm uses nodes and edges
  *      - or you can say Vertices and edges 
  * 
- *  O(v + e) time | O(v) space 
+ *  - searches through 
+ * 
+ *  @timeComplexity O(v + e) time | O(v) space 
  * 
  * @KEY - this algorithm explores depth
  * first instead of perimeter first like
