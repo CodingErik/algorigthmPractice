@@ -1,5 +1,5 @@
 /**
- * @STACKS
+ * ************ @STACKS ************
  *  - follow the principal of Last In First Out | LIFO
  * 
  * @exampleIMPLEMENTATION
@@ -30,7 +30,7 @@ console.log(myStack)
  console.log(myStack)
 
 /**
- * @QUEUES
+ * ************ @QUEUES ************
  *  - follows the principal of First in First out | FIFO
  * 
  * @exampleIMPLEMENTATION

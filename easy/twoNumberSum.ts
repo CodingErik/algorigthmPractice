@@ -31,6 +31,11 @@ export function twoNumberSum(array: number[], targetSum: number): number[] {
 }
 
 
+// function twoNumberSum(array, target){
+
+// }
+
+
 // console.log(twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10))
 
 
@@ -40,3 +45,9 @@ export function twoNumberSum(array: number[], targetSum: number): number[] {
  * so that you dont have to continue to iterate through the whole array again. 
  */
 
+
+
+
+
+
+ 

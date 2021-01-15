@@ -4,8 +4,8 @@
  * 
  * @oaram - the input is a unsorted number array 
  * 
- * the involves iteration throught an algorigthm an checking each index and the one next to it
- * 
+ * @description 
+ * the involves iteration throught an array an checking each index and the one next to it
  * if the first index is greater than the next index => * THEN we will swap the indexes 
  * 
  * 

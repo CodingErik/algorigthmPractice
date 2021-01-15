@@ -1,7 +1,6 @@
 /**
- * @BinarySearch
+ * @function BinarySearch
  * 
- * one of the preRequesites for binary search is that the array HAS to be SORTED in order to apply binary search 
  * 
  * @TimeComplexity of O(Log(N))
  * @SpaceComplecity of O(1) ||  O(Log(N)) using recursive case 
@@ -10,6 +9,10 @@
  * 
  * @implementations
  *  this algorithm can be implemented Recursively and Iterably 
+ * 
+ * @description
+ *  this algorithm is used to find a number within a sorted array
+ *  one of the preRequesites for binary search is that the array HAS to be SORTED in order to apply binary search 
  * 
  */
 
