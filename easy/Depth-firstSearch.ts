@@ -12,7 +12,9 @@
  * 
  *  @timeComplexity O(v + e) time | O(v) space 
  * 
- *     
+ * @KEY - this algorithm explores depth
+ * first instead of perimeter first like
+ * the Breadth-firstSearch 
  */
 
 
