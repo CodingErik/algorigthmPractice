@@ -1,3 +1,9 @@
+/**
+ * 
+ * @param {*} arr 
+ * @param {*} multiplier 
+ */
+
 function productSum(arr, multiplier = 1) {
     // Write your code here.
     let sum = 0
