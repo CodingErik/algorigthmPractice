@@ -1,7 +1,8 @@
 
 
 
-// O(n^2)
+// O(n^2) time complexity 
+// 
 
 // function highestProfit(arr) {
 //     let profit = 0;
@@ -27,6 +28,8 @@
 
 // }
 
+
+// O(n) time complexity 
 const stocks = [1,2,3,5,6,50,3,2]; 
 
 function highestProfit(arr) {
