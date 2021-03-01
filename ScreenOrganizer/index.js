@@ -9,7 +9,7 @@ console.log(`current pwd ${desktopDir}`);
 
 
 // this will watch for changes to your desktop and then r
-module.exports = function watchDesktop() {
+function watchDesktop() {
     fs.watch(desktopDir, (eventType, filename) => {
         if (filename.includes('Screen') && eventType === 'rename' && !filename.includes('.Screen')) {
             // console.log(`event type : ${eventType}`);

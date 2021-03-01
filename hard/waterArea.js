@@ -72,6 +72,14 @@ function waterArea2(arr){
 }
 
 // third Attempt tomorrow;
-function waterArea3(arr){}
+function waterArea3(arr){
+    
+}
 
 console.log(waterArea3(arr)); 
+
+
+// third Attempt tomorrow;
+function waterArea4(arr){}
+
+console.log(waterArea4(arr)); 
