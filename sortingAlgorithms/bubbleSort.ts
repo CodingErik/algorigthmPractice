@@ -44,11 +44,21 @@ function swap(i: number, j: number, array: number[]): void {
 
 let test: number[] = [8, 5, 2, 9, 5, 6, 3]; 
 // console.log(bubbleSort(test)); 
-/**
+
+
+let test1: number[] = [9, 8, 7, 6, 5, 4, 3, 2, 1] 
+let test2: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+
+//[SOLVED] ****************************************************************************
+/** 
  * BubbleSort is one tool we can use when solving algorithms 
  * we can use this tool to sort content
  * O(n^2) quadratic => time complexity 
- * the last number of the array of the first iteration always end up being in the correct place so 
+ * 
+ * Counter: 
+ * the last number of the array of the first iteration always ends up being in the correct place so 
  * we start a counter so we don't have to look at it anymore 
  * 
  * Bubble Sort is a tool in our toolbox to use when solving algorightms 
@@ -77,4 +87,5 @@ function swapTest(arr: number[], first: number, second: number):void{
     return 
 }
 
-console.log(bubbleSortTest(test)); 
+console.log(bubbleSortTest(test1)); 
+console.log(bubbleSortTest(test2)); 
